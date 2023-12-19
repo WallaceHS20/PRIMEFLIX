@@ -8,7 +8,7 @@ header{
 }
 
 header .logo{
-    width: 12%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ header .logo h2{
 }
 
 header .menu{
-    width: 88%;
+    width: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
