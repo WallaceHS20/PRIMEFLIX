@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.loader{
+    width: 100%;
+    height: 90vh;
+    font-size: 50px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-movies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 300px;
+    height: 390px;
+    margin: 10px 0px 0px 10px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card .capa{
+    padding: 10px 5px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.card .capa img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card .details{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.card .details .popularity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.card .details p{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.card .details svg{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 201, 1);
+    margin-bottom: 6px;
+}
