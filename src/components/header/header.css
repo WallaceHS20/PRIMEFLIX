@@ -10,12 +10,12 @@ header{
 header .logo{
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
 header .logo h2{
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 15px;
     color: rgb(255, 255, 255);
     font-family: 'Comfortaa', sans-serif;
     letter-spacing: 8px;
