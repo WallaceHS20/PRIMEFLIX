@@ -2,6 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 import './movie.css'
+import { toast } from "react-toastify";
 
 function Movie() {
   const { id } = useParams();
@@ -17,10 +18,9 @@ function Movie() {
             language: "pt-BR",
           }
         });
-        console.log(response.data);
         setMovie(response.data);
       } catch (error) {
-        alert('Este filme não existe')
+        toast.error('Filme Não encontrado!')
         navigate('/')
       }
     }
@@ -41,13 +41,13 @@ function Movie() {
     const hasFilme = savemovie.some( (savemovie) => savemovie.id === movie.id)
 
     if(hasFilme){
-      alert("ESSE FILME JÁ ESTA NA LISTA");
+      toast.warn('Este Filme já foi Adicionado')
       return;
     }
 
     savemovie.push(movie);
     localStorage.setItem("@primeflix", JSON.stringify(savemovie));
-    alert("FILME SALVO COM SUCESSO")
+    toast.success('Filme Adicionado com Sucesso')
 
   }
 
