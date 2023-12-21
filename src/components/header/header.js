@@ -15,7 +15,7 @@ function Header() {
         </div>
         <div className='menu-item'>
           <Link to="/favorite">
-            Meus Filmes
+            Minha Lista
           </Link>
         </div>
       </div>

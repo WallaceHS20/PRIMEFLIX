@@ -47,7 +47,7 @@ function Movie() {
 
     savemovie.push(movie);
     localStorage.setItem("@primeflix", JSON.stringify(savemovie));
-    toast.success('Filme Adicionado com Sucesso')
+    toast.success('Filme Adicionado!')
 
   }
 
@@ -75,7 +75,7 @@ function Movie() {
         </div>
         <div className="actions">
         <a target="blank" rel="external" className="trailer" href={`https://youtube.com/results?search_query=${movie.title} trailer`}>Trailer</a>
-        <button onClick={salvarFilme} className="play" href=""> + Meu Filme</button>
+        <button onClick={salvarFilme} className="play" href=""> + Minha Lista</button>
       </div>
       </div>
     </div>
