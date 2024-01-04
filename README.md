@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+https://github.com/WallaceHS20/PRIMEFLIX-REACT/assets/101594950/b9b3369e-de57-4d6f-9a01-a162156a4054
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
