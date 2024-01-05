@@ -1,74 +1,48 @@
-# Getting Started with Create React App
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=A020F0&height=180&section=header&text=PRIMEFLIX+-+BIBLIOTECA+DE+FILMES+EM+CARTAZES&animation=fadeIn&fontAlignY=35&fontSize=30&fontColor=FFFAFA"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recentemente iniciei meus estudos em ReactJS e hoje finalizei meu primeiro app. O projeto foi uma imersão profunda nos conceitos fundamentais de ReactJS, incluindo react hooks, ciclos de vida, além de práticas avançadas como o consumo de APIs e gerenciamento de requisições.
+O PrimeFlix é inspirado nos sistemas de streaming líderes de mercado, refletindo tanto a funcionalidade quanto a estética dessas plataformas.
 
-## Available Scripts
+## Tecnologias 
 
-In the project directory, you can run:
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+
+## Resultado
 
 https://github.com/WallaceHS20/PRIMEFLIX-REACT/assets/101594950/b9b3369e-de57-4d6f-9a01-a162156a4054
 
+## Instalação
 
-### `npm start`
+### Clone o repositório
+~~~git
+git clone https://github.com/WallaceHS20/PRIMEFLIX-REACT.git
+~~~~
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Acesse a pasta por seu terminal de preferência e instale as bibliotecas
+~~~node
+npm install
+~~~~
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Inicie o App
+~~~node
+npm start
+~~~~
 
-### `npm test`
+### Acesse pelo seu navegador
+~~~node
+[npm start](http://localhost:3000)
+~~~~
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+------------
 
-### `npm run build`
+LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7143399568875982848/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=A020F0&height=180&section=footer"/>
